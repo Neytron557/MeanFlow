@@ -1,0 +1,4 @@
+-r requirements-cifar10.txt
+torchmetrics==1.7.1
+torch-fidelity==0.3.0
+scipy==1.15.2

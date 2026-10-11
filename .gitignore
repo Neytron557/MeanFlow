@@ -1,0 +1,48 @@
+# Python environments and caches
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Datasets, model weights and training outputs
+data/
+checkpoints/
+work_dir/
+samples/
+metric_assets/
+fid_stats/
+launch_configs/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.log
+*.jsonl
+
+# Local experiment records and export metadata
+evidence/
+.handoff-work/
+REPORT.md
+PORTABLE.md
+EXPORT_*
+HANDOFF_*
+SHA256_MANIFEST.*
+requirements-*.lock
+
+# Local credentials and editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
